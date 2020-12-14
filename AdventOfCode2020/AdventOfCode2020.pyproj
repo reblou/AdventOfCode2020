@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>27bcfdd9-adf3-422a-811e-a67a6ee7d136</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>3b.py</StartupFile>
+    <StartupFile>4b.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,11 +37,18 @@
     <Compile Include="3b.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="4a.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4b.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.txt" />
     <Content Include="2.txt" />
     <Content Include="3.txt" />
+    <Content Include="4.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
