@@ -6,6 +6,9 @@ file = open("5.txt", "r")
 lines = file.readlines()
 
 ids = []
+# seats = [["_"] * 8] * 128
+# [[0 for i in range(cols)] for j in range(rows)]
+seats = [["_" for i in range(8)] for j in range(128)]
 
 for l in lines:
     lh = 0
@@ -43,6 +46,10 @@ for l in lines:
     id = (rowNum * 8) + colNum
     print("ID: ", id)
     ids.append(id)
+    seats[rowNum][colNum] = "*"
 
 
 print(max(ids))
+
+for r in range(0, 127):
+    print(r, seats[r])
